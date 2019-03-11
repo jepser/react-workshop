@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  list-style: none;
+  display: flex;
+}
+
+.column {
+  display: inline-block;
+  padding: 5px;
+  flex: 1 0 33%;
+  max-width: 33%;
+}
