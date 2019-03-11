@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+// Endpoint for getting the user data
+// `${API_BASE_URL}/users/{id}`
+
 class UserDetails extends Component {
   componentDidMount() {
     const { params } = this.props.match
